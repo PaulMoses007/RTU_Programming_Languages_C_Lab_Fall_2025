@@ -37,3 +37,14 @@ run-formats: formats
 
 clean:
 	rm -rf $(BUILD_DIR)/*.o $(PROGRAMS)
+
+
+lab2_1: src/lab2_1.c
+	$(CC) $(CFLAGS) -o bin/lab2_1 src/lab2_1.c
+
+lab2_2: src/lab2_2.c
+	$(CC) $(CFLAGS) -o bin/lab2_2 src/lab2_2.c
+
+lab2_3: src/lab2_3.c
+	$(CC) $(CFLAGS) -o bin/lab2_3 src/lab2_3.c
+
