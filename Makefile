@@ -125,7 +125,7 @@ run-lab5: lab5
 	./$(BUILD_DIR)/week5_task1_file_io
 	./$(BUILD_DIR)/week5_task2_struct_save_load
 	./$(BUILD_DIR)/week5_task3_student_management_system
-	./$(BUILD_DIR)/week5_task4_struct_binary_io.c
+	./$(BUILD_DIR)/week5_task4_struct_binary_io
 
 # -----------------------
 # Run all labs (Lab 1 → Lab 5)
@@ -146,7 +146,7 @@ run-all: all
 	./$(BUILD_DIR)/week5_task1_file_io
 	./$(BUILD_DIR)/week5_task2_struct_save_load
 	./$(BUILD_DIR)/week5_task3_student_management_system
-	./$(BUILD_DIR)/week5_task4_struct_binary_io.c
+	./$(BUILD_DIR)/week5_task4_struct_binary_io
 
 # -----------------------
 # Debug build
