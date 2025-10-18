@@ -9,7 +9,8 @@ PROGRAMS = $(BUILD_DIR)/hello $(BUILD_DIR)/calculator $(BUILD_DIR)/formats \
            $(BUILD_DIR)/lab2_1 $(BUILD_DIR)/lab2_2 $(BUILD_DIR)/lab2_3 \
            $(BUILD_DIR)/lab3_task1 $(BUILD_DIR)/lab3_task2 $(BUILD_DIR)/lab3_task3 \
            $(BUILD_DIR)/week4_1_dynamic_array $(BUILD_DIR)/week4_2_struct_student $(BUILD_DIR)/week4_3_struct_database \
-           $(BUILD_DIR)/week5_task1_file_io $(BUILD_DIR)/week5_task2_struct_save_load $(BUILD_DIR)/week5_task3_student_management_system
+           $(BUILD_DIR)/week5_task1_file_io $(BUILD_DIR)/week5_task2_struct_save_load $(BUILD_DIR)/week5_task3_student_management_system \
+           $(BUILD_DIR)/week5_task4_struct_binary_io
 
 all: $(PROGRAMS)
 
@@ -84,7 +85,7 @@ $(BUILD_DIR)/week4_3_struct_database: $(SRC_DIR)/week4_3_struct_database.c
 # -----------------------
 # Lab 5
 # -----------------------
-lab5: $(BUILD_DIR)/week5_task1_file_io $(BUILD_DIR)/week5_task2_struct_save_load $(BUILD_DIR)/week5_task3_student_management_system
+lab5: $(BUILD_DIR)/week5_task1_file_io $(BUILD_DIR)/week5_task2_struct_save_load $(BUILD_DIR)/week5_task3_student_management_system $(BUILD_DIR)/week5_task4_struct_binary_io
 
 $(BUILD_DIR)/week5_task1_file_io: $(SRC_DIR)/week5_task1_file_io.c
 	@mkdir -p $(BUILD_DIR)
