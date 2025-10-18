@@ -98,6 +98,10 @@ $(BUILD_DIR)/week5_task3_student_management_system: $(SRC_DIR)/week5_task3_stude
 	@mkdir -p $(BUILD_DIR)
 	$(CC) $(CFLAGS) $< -o $@ $(LDFLAGS)
 
+$(BUILD_DIR)/week5_task4_struct_binary_io: $(SRC_DIR)/week5_task4_struct_binary_io.c
+	@mkdir -p $(BUILD_DIR)
+	$(CC) $(CFLAGS) $< -o $@ $(LDFLAGS)
+
 # -----------------------
 # Run combined labs
 # -----------------------
