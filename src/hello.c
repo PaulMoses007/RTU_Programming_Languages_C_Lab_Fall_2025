@@ -1,7 +1,6 @@
-
 #include <stdio.h>
 
-int main(int argc, char *argv[]) {
+int main(int argc, char* argv[]) {
   // This is my first C program my friend
   printf("Hello, RTU World from C Lab in 2025!\n");
   printf("You passed %d argument(s).\n", argc - 1);
